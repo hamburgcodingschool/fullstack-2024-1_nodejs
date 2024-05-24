@@ -3,10 +3,10 @@
 
 ### ✏️ Homework
 
-- Erweitere die Beispiele mit dem Express-Server
-  - Verwende Variablen, gib z.B. das aktuelle Datum mit aus
-  - Spiele mit Routen: Hat die Reihenfolge eine Auswirkung?
-  - JavaScript: wie kann man die Arrow-Funktion für mehrere Routen zugänglich machen
+- Extend your sample server by
+  - using variables, e.g. give the date in the format DD.MM.YYYY
+  - Play around with routes ('/sth'): check, if the order of the routes matters
+  - Try to load images as well
   
 ### 📄 Docs
 
