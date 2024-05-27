@@ -3,11 +3,10 @@
 
 ### ✏️ Homework
 
-- Extend your sample server by
-  - using variables, e.g. give the date in the format DD.MM.YYYY
-  - Play around with routes ('/sth'): check, if the order of the routes matters
-  - Try to load images as well
-- [Fix windows security issue for `nodemon`](https://stackoverflow.com/questions/63423584/how-to-fix-error-nodemon-ps1-cannot-be-loaded-because-running-scripts-is-disabl)
+- Write a body mass calculator using forms and calculate the BMI (body mass index) on the server
+  - If you have extra time:
+  - Differentiate between male and female and use a radio-button in the HTML form
+  - Make a nice HTML output page and color code the result (e.g. green, yellow and red)
   
 ### 📄 Docs
 
