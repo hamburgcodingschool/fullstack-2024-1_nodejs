@@ -8,13 +8,13 @@
   - Routes
   - Serving HTML content
 - Serving [static files](https://expressjs.com/en/starter/static-files.html) from express server
-- Hot reloading express server with the [nodemon](https://www.npmjs.com/package/nodemon) package
+- Hot reloading express server with the [node --watch](https://medium.com/@moaidmoaidrazhy/node-watch-vs-nodemon-4c8f0fc8a1af) 
 
 ## Session 2
 
 - Forms in HTML
 - Handling form inputs
-- POST requests
+- POST requests - [different request types](lesson2_theory.pdf)
 - [Body parser](https://www.quora.com/What-exactly-does-body-parser-do-with-express-js-and-why-do-I-need-it)
 - Theory: HTTP request modes and [response codes](https://httpstatuses.com/)
 - Homework: BMI calculator

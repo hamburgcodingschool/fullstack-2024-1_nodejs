@@ -246,8 +246,8 @@ td {
   }
 
   &iframe {
-    height: calc(#{100% / $iframe-scale} - 1.2em);
-    width: 100% / $iframe-scale;
+    height: calc(calc(100% / $iframe-scale) - 1.2em);
+    width: calc(100% / $iframe-scale);
     transform: scale($iframe-scale);
     transform-origin: 0 0;
     border: 0;
@@ -515,7 +515,7 @@ td {
 
 @for $i from 1 through 12 {
   .col-#{$i} {
-    width: 100% / 12 * $i;
+    width: calc(100% / 12 * $i);
   }
 }
 
@@ -523,7 +523,7 @@ td {
   .vscale-#{$i} {
     img,
     div {
-      height: 681px / 12 * $i;
+      height: calc(681px / 12 * $i);
     }
   }
 }

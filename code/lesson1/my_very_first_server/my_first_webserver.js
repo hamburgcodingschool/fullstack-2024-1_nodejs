@@ -22,6 +22,7 @@ server.get('/', (req, res) => {
             <h2 style="color: ${bgcolor[counter%3]}">It is now ${date}</h2>
             <h2 class="showdate">You have hit this page ${counter} times.</h2>
             <p><a href="/sth_else">Link to second page</a></p>
+            <p><a href="/testroute">Link to test route</a></p>
         </body>
     </html>`);
 });
@@ -36,6 +37,14 @@ server.get('/startpage.css', (req,res) => {
 
 server.get('/sth_else', (req, res) => {
     res.send("Yes, this is something else, indeed!!!");
+});
+
+server.get('/testroute', (req, res) => {
+    res.send("This is a test route - number 1");
+});
+
+server.get('/testroute', (req, res) => {
+    res.send("This is a test route - number 2");
 });
 
 server.listen(PORT, () => {

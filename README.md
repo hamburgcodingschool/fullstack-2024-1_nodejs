@@ -7,6 +7,7 @@
   - using variables, e.g. give the date in the format DD.MM.YYYY
   - Play around with routes ('/sth'): check, if the order of the routes matters
   - Try to load images as well
+- [Fix windows security issue for `nodemon`](https://stackoverflow.com/questions/63423584/how-to-fix-error-nodemon-ps1-cannot-be-loaded-because-running-scripts-is-disabl)
   
 ### 📄 Docs
 
