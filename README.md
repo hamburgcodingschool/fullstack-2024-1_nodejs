@@ -3,10 +3,13 @@
 
 ### ✏️ Homework
 
-- Write a body mass calculator using forms and calculate the BMI (body mass index) on the server
-  - If you have extra time:
-  - Differentiate between male and female and use a radio-button in the HTML form
-  - Make a nice HTML output page and color code the result (e.g. green, yellow and red)
+- Write a dice roller as a client / server app using JSON object
+- You have an input field with the number of sides (e.g. 6) 
+- You create a json object `{ number_of_sides: 6 }`
+- Return a random number `{ rolled: 3 }`
+- Display the result
+- Addon:
+  - Animate the result (CSS animation)
   
 ### 📄 Docs
 
@@ -19,8 +22,8 @@
 
 ### Changed times
 
-24.5.<br/>
-27.5.<br/>
+24.5. ✅<br/>
+27.5. ✅<br/>
 29.5.<br/>
 31.5.<br/>
 3.6.<br/>
