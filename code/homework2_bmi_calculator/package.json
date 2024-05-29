@@ -1,0 +1,20 @@
+{
+  "name": "bmi-calculator",
+  "description": "Simple BMI calculator, which does the calculation server based for educational purpose",
+  "version": "1.0.0",
+  "homepage": "https://github.com/hamburgcodingschool/fullstack-2024-1_nodejs/tree/main/code/code/homework2_bmi_calculator",
+  "license": "MIT",
+  "author": "Tobias Schulz-Hess <tobias@hamburgcodingschool.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamburgcodingschool/fullstack-2024-1_nodejs/tree/main/code/code/homework2_bmi_calculator"
+  },
+  "scripts": {
+    "prod": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
