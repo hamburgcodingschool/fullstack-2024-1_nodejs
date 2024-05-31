@@ -1,0 +1,19 @@
+{
+  "name": "dice",
+  "description": "Simple dice roller, which does the calculation server based for educational purpose",
+  "version": "1.0.0",
+  "homepage": "https://github.com/hamburgcodingschool/fullstack-2024-1_nodejs/tree/main/code/code/homework3_dice",
+  "license": "MIT",
+  "author": "Tobias Schulz-Hess <tobias@hamburgcodingschool.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamburgcodingschool/fullstack-2024-1_nodejs/tree/main/code/code/homework3_dice"
+  },
+  "scripts": {
+    "prod": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

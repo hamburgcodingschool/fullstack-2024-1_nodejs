@@ -1,0 +1,27 @@
+#number {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    width: 3em;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: .5em;
+    text-align: center;
+}
+
+.spin {
+    animation-name: spin;
+    animation-duration: .01s; /* Fast */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
