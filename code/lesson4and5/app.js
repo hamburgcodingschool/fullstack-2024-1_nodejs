@@ -32,12 +32,12 @@ server.put("/data/:id", (req, res) => {
     const newData = req.body.dataToUpdate;
     const index = parseInt(req.params.id) - 1;
 
-    /*dataStorage = dataStorage.map((oldData, i) => 
+    dataStorage = dataStorage.map((oldData, i) => 
         (i == index) ? newData : oldData
-    );*/
+    );
 
     // this is the same as the filter method:
-    
+    /*
     let newStorage = [];
     for(let i=0; i < dataStorage.length; i++) {
         if (i == index) {
@@ -49,7 +49,7 @@ server.put("/data/:id", (req, res) => {
         }
     }
     dataStorage = newStorage;
-    
+    */
 
     res.send({ dataToReturn: dataStorage });
 });
