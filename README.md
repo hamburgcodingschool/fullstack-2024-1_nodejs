@@ -3,7 +3,16 @@
 
 ### ✏️ Homework
 
-No homework for today
+Write a small ToDo-List app!
+- Create new todo list items
+- View them
+- Check them off the list (deleting them)
+- Update items
+- Use some database engine, you choose if you want to go for MongoDB or MySQL
+
+- Advanced:
+  - Have nice buttons to update and delete items
+  - Make strike-through animation, if you delete items
   
 ### 📄 Docs
 
@@ -22,7 +31,7 @@ No homework for today
 31.5. ✅<br/>
 3.6. ✅<br/>
 5.6. ✅<br/>
-~~7.6.~~ --> 6.6. !!<br/>
+~~7.6.~~ --> 6.6. !!✅<br/>
 10.6.<br/>
 
 
